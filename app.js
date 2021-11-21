@@ -25,5 +25,5 @@ app.get("/catalogue", (req, res) => {
   res.render("catalogue");
 });
 
-const router = require("./routes/post");
+const router = require("./routes/apis");
 app.use(router);
